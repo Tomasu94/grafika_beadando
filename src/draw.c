@@ -206,10 +206,10 @@ void draw_environment(World world, Move move) {
 	glEnable(GL_TEXTURE_2D);
     displayList1 = glGenLists(1);
 	glNewList(displayList1, GL_COMPILE);
-		GLfloat material_specular[] = {1, 1, 1, 1};
-        GLfloat material_ambient[] = {0.9, 0.9, 0.9, 1};
-		GLfloat material_diffuse[] = {1, 1, 1, 1};
-		GLfloat material_shininess[] = { 100.0 };
+		GLfloat material_specular[] = {0.774597f, 0.774597f, 0.774597f, 1.0f};
+        	GLfloat material_ambient[] = {0.25f, 0.25f, 0.25f, 1.0f};
+		GLfloat material_diffuse[] = {0.4f, 0.4f, 0.4f, 1.0f};
+		GLfloat material_shininess[] = {76.8f};
 		
 		glMaterialfv(GL_FRONT, GL_SPECULAR, material_specular);
         glMaterialfv(GL_FRONT, GL_AMBIENT, material_ambient);
