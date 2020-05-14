@@ -13,10 +13,10 @@
 int mouse_x, mouse_y;
 
 
-GLfloat light_position[] = {0, 100, 0, 0};
-GLfloat light_ambient[] = { 0.5, 0.5, 0.5, 0 };
-GLfloat light_diffuse[] = { 0.5, 0.5, 0, 0 };
-GLfloat light_specular[] = { 0, 0, 0, 0 };
+GLfloat light_position[] = {200.0f, 300.0f, 100.0f, 0.0f};
+GLfloat light_ambient[] = {0.2f, 0.2f, 0.2f, 1.0f};
+GLfloat light_diffuse[] = {1.0f, 1.0f, 1.0f, 1.0f};
+GLfloat light_specular[] = {1.0f, 1.0f, 1.0f, 1.0f};
 
 
 struct Camera camera;
